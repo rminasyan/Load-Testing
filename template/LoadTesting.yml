@@ -4,3 +4,4 @@ parameters:
   type: string
 - name: artifactName
   displayName: Artifact Name
+  type: string
