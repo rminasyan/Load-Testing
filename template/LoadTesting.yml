@@ -1,2 +1,4 @@
 parameters:
 - name: apiFileName
+  displayName: API File Name
+  type: string
