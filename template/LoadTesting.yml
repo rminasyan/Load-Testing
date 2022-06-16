@@ -7,3 +7,5 @@ parameters:
   type: string
 - name: azureSubscription
   displayName: Azure Subscription
+  type: string
+- name: appName
