@@ -9,3 +9,5 @@ parameters:
   displayName: Azure Subscription
   type: string
 - name: appName
+  displayName: Web App Name
+  type: string
