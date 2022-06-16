@@ -5,3 +5,5 @@ parameters:
 - name: artifactName
   displayName: Artifact Name
   type: string
+- name: azureSubscription
+  displayName: Azure Subscription
