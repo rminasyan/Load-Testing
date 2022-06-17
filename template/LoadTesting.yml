@@ -17,3 +17,6 @@ parameters:
 - name: reportName
   displayName: Report Name
   type: string
+
+jobs:
+- job: 'buildjob'
