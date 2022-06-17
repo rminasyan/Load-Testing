@@ -15,3 +15,5 @@ parameters:
   displayName: Resource Group Name
   type: string
 - name: reportName
+  displayName: Report Name
+  type: string
