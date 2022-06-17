@@ -13,3 +13,5 @@ parameters:
   type: string
 - name: resourceGroupName
   displayName: Resource Group Name
+  type: string
+- name: reportName
