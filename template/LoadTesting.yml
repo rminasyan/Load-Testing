@@ -11,3 +11,5 @@ parameters:
 - name: appName
   displayName: Web App Name
   type: string
+- name: resourceGroupName
+  displayName: Resource Group Name
