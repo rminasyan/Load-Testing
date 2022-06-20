@@ -24,3 +24,5 @@ jobs:
     vmImage: 'windows-latest'
   steps:
   - checkout: self
+
+  - task: AzureAppServiceSettings@1
