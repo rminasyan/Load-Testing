@@ -20,3 +20,5 @@ parameters:
 
 jobs:
 - job: 'buildjob'
+  pool: 
+    vmImage: 'windows-latest'
