@@ -22,3 +22,5 @@ jobs:
 - job: 'buildjob'
   pool: 
     vmImage: 'windows-latest'
+  steps:
+  - checkout: self
