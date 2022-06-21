@@ -30,3 +30,4 @@ jobs:
       azureSubscription: ${{ parameters.azureSubscription }}
       appName: ${{ parameters.appName }}
       resourceGroupName: ${{ parameters.resourceGroupName }}
+      appSettings: |
