@@ -26,3 +26,5 @@ jobs:
   - checkout: self
 
   - task: AzureAppServiceSettings@1
+    inputs:
+      azureSubscription: ${{ parameters.azureSubscription }}
