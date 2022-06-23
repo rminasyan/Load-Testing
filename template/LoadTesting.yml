@@ -41,3 +41,5 @@ jobs:
             "name": "IpRateLimit__RateLimitPerSecond",
             "value": "10000",
             "slotSetting": false
+           }
+        ]
