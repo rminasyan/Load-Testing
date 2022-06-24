@@ -48,3 +48,4 @@ jobs:
     inputs:
       azureSubscription: ${{ parameters.azureSubscription }}
       Action: 'Restart Azure App Service'
+      WebAppName: ${{ parameters.appName }}
