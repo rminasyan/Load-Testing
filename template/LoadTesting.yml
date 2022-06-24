@@ -45,3 +45,5 @@ jobs:
         ]
 
   - task: AzureAppServiceManage@0
+    inputs:
+      azureSubscription: ${{ parameters.azureSubscription }}
