@@ -47,3 +47,4 @@ jobs:
   - task: AzureAppServiceManage@0
     inputs:
       azureSubscription: ${{ parameters.azureSubscription }}
+      Action: 'Restart Azure App Service'
