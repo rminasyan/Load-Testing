@@ -49,3 +49,5 @@ jobs:
       azureSubscription: ${{ parameters.azureSubscription }}
       Action: 'Restart Azure App Service'
       WebAppName: ${{ parameters.appName }}
+
+  - task: PowerShell@2
