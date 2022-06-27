@@ -56,3 +56,5 @@ jobs:
       script: |
         Write-Host("Sleep 2 minutes")
         Start-Sleep -Seconds 120
+
+  - task: k6-load-test@0
