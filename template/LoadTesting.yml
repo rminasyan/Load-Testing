@@ -58,3 +58,4 @@ jobs:
         Start-Sleep -Seconds 120
 
   - task: k6-load-test@0
+    inputs:
