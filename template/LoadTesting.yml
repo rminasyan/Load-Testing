@@ -60,3 +60,6 @@ jobs:
   - task: k6-load-test@0
     inputs:
       filename: ${{ parameters.apiFileName }}
+
+  - task: AzureAppServiceSettings@1
+    inputs:
