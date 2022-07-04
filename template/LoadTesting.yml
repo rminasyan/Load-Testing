@@ -64,3 +64,4 @@ jobs:
   - task: AzureAppServiceSettings@1
     inputs:
       azureSubscription: ${{ parameters.azureSubscription }}
+      appName: ${{ parameters.appName }}
