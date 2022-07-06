@@ -69,3 +69,5 @@ jobs:
       appSettings: |
         [
            {
+            "name": "IpRateLimit__RateLimitPerMinute",
+            "value": "6000",
