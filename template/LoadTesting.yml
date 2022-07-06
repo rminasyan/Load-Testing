@@ -72,3 +72,6 @@ jobs:
             "name": "IpRateLimit__RateLimitPerMinute",
             "value": "6000",
             "slotSetting": false
+           },
+           {
+            "name": "IpRateLimit__RateLimitPerSecond",
