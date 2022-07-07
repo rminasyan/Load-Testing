@@ -75,3 +75,4 @@ jobs:
            },
            {
             "name": "IpRateLimit__RateLimitPerSecond",
+            "value": "100",
