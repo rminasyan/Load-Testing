@@ -79,3 +79,5 @@ jobs:
             "slotSetting": false
            }
         ]
+
+  - task: AzureAppServiceManage@0
