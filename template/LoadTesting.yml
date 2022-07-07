@@ -76,3 +76,6 @@ jobs:
            {
             "name": "IpRateLimit__RateLimitPerSecond",
             "value": "100",
+            "slotSetting": false
+           }
+        ]
