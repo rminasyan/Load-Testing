@@ -85,3 +85,5 @@ jobs:
       azureSubscription: ${{ parameters.azureSubscription }}
       Action: 'Restart Azure App Service'
       WebAppName: ${{ parameters.appName }}
+
+  - task: PublishPipelineArtifact@1
