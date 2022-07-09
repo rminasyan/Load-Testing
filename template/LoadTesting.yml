@@ -88,3 +88,4 @@ jobs:
 
   - task: PublishPipelineArtifact@1
     displayName: Publish report
+    inputs:
