@@ -87,3 +87,4 @@ jobs:
       WebAppName: ${{ parameters.appName }}
 
   - task: PublishPipelineArtifact@1
+    displayName: Publish report
