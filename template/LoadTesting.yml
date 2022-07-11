@@ -90,3 +90,4 @@ jobs:
     displayName: Publish report
     inputs:
       targetPath: '$(Pipeline.Workspace)\s\${{ parameters.reportName }}.html'
+      artifact: ${{ parameters.artifactName }}
