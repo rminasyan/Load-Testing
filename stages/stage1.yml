@@ -1,0 +1,2 @@
+jobs:
+  - template: ../template/LoadTesting.yml
