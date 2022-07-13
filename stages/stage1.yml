@@ -4,3 +4,4 @@ jobs:
       apiFileName: 
       artifactName: example-report
       azureSubscription: EXAMPLE Azure
+      appName: example-app-name
