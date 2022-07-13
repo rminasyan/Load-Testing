@@ -3,3 +3,4 @@ jobs:
     parameters: 
       apiFileName: 
       artifactName: example-report
+      azureSubscription: EXAMPLE Azure
