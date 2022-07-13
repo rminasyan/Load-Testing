@@ -2,3 +2,4 @@ jobs:
   - template: ../template/LoadTesting.yml
     parameters: 
       apiFileName: 
+      artifactName: example-report
