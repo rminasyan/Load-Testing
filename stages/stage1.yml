@@ -5,3 +5,4 @@ jobs:
       artifactName: example-report
       azureSubscription: EXAMPLE Azure
       appName: example-app-name
+      resourceGroupName: example-rg-name
