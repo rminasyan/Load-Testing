@@ -5,3 +5,5 @@ export function authenticateUsingAih(clientId, clientSecret, scope) {
     const requestBody = {
         client_id: clientId,
         client_secret: clientSecret,
+        scope: scope,
+    };
