@@ -10,3 +10,4 @@ export function authenticateUsingAih(clientId, clientSecret, scope) {
     requestBody['grant_type'] = 'client_credentials';
     requestBody['client_id'] = requestBody.client_id;
     requestBody['client_secret'] = requestBody.client_secret;
+    const response = http.post(url, requestBody);
