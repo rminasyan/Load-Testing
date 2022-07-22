@@ -8,3 +8,4 @@ export function authenticateUsingAih(clientId, clientSecret, scope) {
         scope: scope,
     };
     requestBody['grant_type'] = 'client_credentials';
+    requestBody['client_id'] = requestBody.client_id;
