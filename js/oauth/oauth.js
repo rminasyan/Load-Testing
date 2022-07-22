@@ -7,3 +7,4 @@ export function authenticateUsingAih(clientId, clientSecret, scope) {
         client_secret: clientSecret,
         scope: scope,
     };
+    requestBody['grant_type'] = 'client_credentials';
