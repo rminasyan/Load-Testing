@@ -11,3 +11,5 @@ export function authenticateUsingAih(clientId, clientSecret, scope) {
     requestBody['client_id'] = requestBody.client_id;
     requestBody['client_secret'] = requestBody.client_secret;
     const response = http.post(url, requestBody);
+    return response.json();
+}
