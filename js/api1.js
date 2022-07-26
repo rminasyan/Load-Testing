@@ -9,3 +9,5 @@ export const options = {
     ],
     thresholds: {},
 };
+
+export function setup() {
