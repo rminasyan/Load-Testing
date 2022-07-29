@@ -11,3 +11,4 @@ export const options = {
 };
 
 export function setup() {
+    const clientAuthResp = authenticateUsingAih('EXTERNAL_SYSTEM', 'password', 'API')
