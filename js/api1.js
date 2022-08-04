@@ -25,3 +25,5 @@ export default function (data) {
     const api1Url = 'https://yoursiteexample.com/endpointnameexample';
     const res = http.get(api1Url, params);
 }
+
+export function handleSummary(data) {
