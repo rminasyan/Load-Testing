@@ -22,3 +22,4 @@ export default function (data) {
             'Authorization': `Bearer ${data.access_token}`,
         },
     };
+    const assetsUrl = 'https://yoursiteexample.com/endpointnameexample';
