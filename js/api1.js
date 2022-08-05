@@ -28,3 +28,4 @@ export default function (data) {
 
 export function handleSummary(data) {
     return {
+        stdout: textSummary(data, { indent: ' ', enableColors: true }),
