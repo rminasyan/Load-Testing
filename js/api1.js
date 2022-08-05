@@ -27,3 +27,4 @@ export default function (data) {
 }
 
 export function handleSummary(data) {
+    return {
