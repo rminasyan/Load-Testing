@@ -32,3 +32,5 @@ export function handleSummary(data) {
         'Api1.html': htmlReport(data),
         'loadtest-results.xml': jUnit(data),
         'summary.json': JSON.stringify(data),
+    };
+}
