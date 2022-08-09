@@ -30,3 +30,4 @@ export function handleSummary(data) {
     return {
         stdout: textSummary(data, { indent: ' ', enableColors: true }),
         'Api1.html': htmlReport(data),
+        'loadtest-results.xml': jUnit(data),
